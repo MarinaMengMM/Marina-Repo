@@ -1,0 +1,87 @@
+
+{
+  "exchanges": [
+    {
+      "name": "trades_exchange",
+      "type": "direct",
+      "durable": true,
+      "auto_delete": false,
+      "internal": false,
+      "arguments": {}
+    }
+  ],
+  "queues": [
+    {
+      "name": "secore_inbound_queue",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "secore_outbound_queue",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "lifecycle_queue",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "market_outbound_queue",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
+    {
+      "name": "market_outbound_queue",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    }
+  ],
+  "bindings": [
+    {
+      "source": "trades_exchange",
+      "vhost": "/",
+      "destination_type": "queue",
+      "destination": "secore_inbound_queue",
+      "routing_key": "trade.secore.inbound",
+      "arguments": {}
+    },
+    {
+      "source": "trades_exchange",
+      "vhost": "/",
+      "destination_type": "queue",
+      "destination": "secore_outbound_queue",
+      "routing_key": "trade.secore.outbound",
+      "arguments": {}
+    },
+    {
+      "source": "trades_exchange",
+      "vhost": "/",
+      "destination_type": "queue",
+      "destination": "lifecycle_queue",
+      "routing_key": "trade.lifecycle",
+      "arguments": {}
+    },
+    {
+      "source": "trades_exchange",
+      "vhost": "/",
+      "destination_type": "queue",
+      "destination": "market_outbound_queue",
+      "routing_key": "trade.market.outbound",
+      "arguments": {}
+    },
+    {
+      "source": "trades_exchange",
+      "vhost": "/",
+      "destination_type": "queue",
+      "destination": "market_outbound_queue",
+      "routing_key": "trade.market.outbound",
+      "arguments": {}
+    }
+  ]
+}

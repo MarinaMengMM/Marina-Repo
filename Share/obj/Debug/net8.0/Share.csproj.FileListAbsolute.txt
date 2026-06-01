@@ -1,0 +1,12 @@
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.csproj.AssemblyReference.cache
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.AssemblyInfoInputs.cache
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.AssemblyInfo.cs
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.csproj.CoreCompileInputs.cache
+E:\Work\MyTrader\Share\bin\Debug\net8.0\Share.deps.json
+E:\Work\MyTrader\Share\bin\Debug\net8.0\Share.dll
+E:\Work\MyTrader\Share\bin\Debug\net8.0\Share.pdb
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.dll
+E:\Work\MyTrader\Share\obj\Debug\net8.0\refint\Share.dll
+E:\Work\MyTrader\Share\obj\Debug\net8.0\Share.pdb
+E:\Work\MyTrader\Share\obj\Debug\net8.0\ref\Share.dll
